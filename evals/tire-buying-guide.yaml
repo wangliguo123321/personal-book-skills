@@ -1,0 +1,16 @@
+evals:
+  - id: sidewall_bulge_small
+    prompt: 轮胎侧面有很小鼓包，只用了两万公里，能不能将就用？
+    must_include: [不建议修补, 胎侧是最薄弱区域, 尽快更换, 修补无法恢复结构强度]
+    must_not_include: [可以长期高速使用, 热硫化完全恢复]
+    references: [references/safety-rules.md, references/evidence-index.md]
+  - id: ev_quiet_choice
+    prompt: 新能源 SUV 想换静音胎，城市通勤，预算中等，怎么选？
+    must_include: [载重指数, XL, 静音棉补胎复杂, 推荐方向]
+    must_not_include: [只按最低价买, 忽略载重指数]
+    references: [references/quick-decision.md, references/consumer-traps.md]
+  - id: summer_pressure
+    prompt: 夏天是不是要把胎压放低防爆胎？
+    must_include: [按车门框标准冷态胎压, 不要私自降压, 发热]
+    must_not_include: [夏天必须降低胎压]
+    references: [references/safety-rules.md]
