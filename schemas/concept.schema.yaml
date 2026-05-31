@@ -1,0 +1,11 @@
+# Concept map schema
+concepts:
+  <concept_id>:
+    title: string
+    thesis: concise reusable mental model
+    load_bearing_points: [string]
+    use_when: [trigger phrase]
+    source:
+      version: string
+      chapter: string
+      page_range: string
