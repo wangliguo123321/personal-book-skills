@@ -1,0 +1,25 @@
+evidence:
+  - id: ev_sidewall_no_repair
+    topic: safety
+    claim: 胎侧鼓包或侧面扎破不能按常规补胎处理，应尽快更换。
+    supports: [sidewall_bulge_replace, tire_structure]
+    confidence: high
+    source: {version: v2, chapter: 第一章 1.3 / 第四章 4.1.5, page_range: 4-5,48, quote: 胎侧没有钢丝层保护；被挤压断线起鼓包或侧面扎破不能修补}
+  - id: ev_pressure_do_not_lower_summer
+    topic: safety
+    claim: 夏季不应为了防爆胎而刻意降低胎压，应按车门框冷态胎压。
+    supports: [do_not_lower_pressure_in_summer]
+    confidence: high
+    source: {version: v2, chapter: 第四章 4.1.8, page_range: 48, quote: 低胎压会增加胎侧形变和发热}
+  - id: ev_new_tires_rear
+    topic: installation
+    claim: 只换两条时新胎优先装后轮，同轴尽量同品牌同型号同规格。
+    supports: [new_tires_rear]
+    confidence: high
+    source: {version: v2, chapter: 第四章 4.1.1, page_range: 46, quote: 后轮失控甩尾比前轮推头更难救}
+  - id: ev_ev_needs_load_index
+    topic: decision
+    claim: 新能源车选胎要确认载重指数/XL，并在静音、滚阻、湿地安全之间取舍。
+    supports: [ev_quiet, parameter_tradeoffs]
+    confidence: medium
+    source: {version: v2, chapter: 第五章 5.1.3, page_range: 53, quote: 新能源车、追求车内静音；必须确认载重指数/XL}
