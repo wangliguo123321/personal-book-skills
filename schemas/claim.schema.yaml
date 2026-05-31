@@ -1,0 +1,12 @@
+# Claim schema
+fields:
+  id: stable string
+  topic: safety|decision|brand|model|consumer_trap|parameter
+  claim: concise statement
+  recommendation: optional action
+  confidence: high|medium|low
+  source:
+    version: e.g. v2
+    chapter: chapter heading
+    page_range: source page range if known
+    quote: short supporting excerpt
