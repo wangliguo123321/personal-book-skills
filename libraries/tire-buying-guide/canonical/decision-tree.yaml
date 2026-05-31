@@ -1,0 +1,25 @@
+scenarios:
+  city_commute:
+    user_signals: [城市通勤, 低速, 偶尔自驾, 省心, 预算]
+    recommend: 中端舒适/均衡四季胎或高性价比国产胎
+    candidates: [普利司通泰然者/同级, 邓禄普家用线, 朝阳1号, 赛轮液体黄金]
+    tradeoff: 不必为赛道级抓地付费，国产高端极限操控不如一线。
+    source: {version: v2, chapter: 第五章 5.1.1, page_range: 51}
+  highway_sport:
+    user_signals: [高速多, 山路, 性能车, 250匹以上, 操控]
+    recommend: 高端运动/UHP 胎
+    candidates: [倍耐力 P Zero, 米其林 Pilot Sport, 马牌 SportContact/MaxContact]
+    tradeoff: 更吵更硬更贵，寿命可能 2-3 万公里。
+    source: {version: v2, chapter: 第五章 5.1.2, page_range: 52}
+  ev_quiet:
+    user_signals: [新能源车, 静音, 电车, 车重大, 胎噪]
+    recommend: EV 专用胎、静音棉胎或顶级舒适胎；必须确认载重指数/XL。
+    candidates: [韩泰 iON, 朝阳1号, 米其林浩悦/Primacy]
+    tradeoff: 静音棉补胎麻烦，EV 标签有溢价。
+    source: {version: v2, chapter: 第五章 5.1.3, page_range: 53}
+  northern_winter:
+    user_signals: [北方, 冰雪, 冬季低于7度, 雪地]
+    recommend: 夏季/四季胎与冬季胎两套轮换，不要用四驱替代雪地胎。
+    candidates: [冬季胎, 雪地胎]
+    tradeoff: 增加换季和存放成本，但冰雪制动安全不能妥协。
+    source: {version: v2, chapter: 第五章 5.1.4, page_range: 53}
