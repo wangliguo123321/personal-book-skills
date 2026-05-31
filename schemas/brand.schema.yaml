@@ -1,0 +1,13 @@
+# Brand profile schema
+brands:
+  <brand_id>:
+    zh_name: string
+    tier: integer
+    strengths: [string]
+    weaknesses: [string]
+    suitable_for: [string]
+    avoid_if: [string]
+    source:
+      version: string
+      chapter: string
+      page_range: string
