@@ -1,0 +1,81 @@
+brands:
+  michelin:
+    zh_name: 米其林
+    tier: 1
+    strengths: [舒适, 静音, 滤震, 高端舒适胎体验好]
+    weaknesses: [不耐磨, 胎侧偏软易鼓包, 换胎成本高]
+    suitable_for: [城市舒适, 静音优先, 兼顾日常的性能需求]
+    avoid_if: [烂路多, 经常蹭马路牙子, 极度追求耐磨]
+    source: {version: v2, chapter: 第三章 3.1.1, page_range: 15-21}
+  continental:
+    zh_name: 马牌
+    tier: 1
+    strengths: [湿地抓地, 刹车距离, 舒适静音]
+    weaknesses: [不耐磨, 软粘胎面可能掉块, 挑路况]
+    suitable_for: [雨天多, 铺装路, 高速制动安全]
+    avoid_if: [碎石路, 工地路, 烂路多]
+    source: {version: v2, chapter: 第三章 3.1.2, page_range: 21-25}
+  pirelli:
+    zh_name: 倍耐力
+    tier: 1
+    strengths: [运动, 路感, 胎侧支撑, 极限抓地]
+    weaknesses: [颠, 吵, 不耐磨, 贵]
+    suitable_for: [性能车, 跑山, 高速操控]
+    avoid_if: [静音舒适优先, 家用代步, 烂路多]
+    source: {version: v2, chapter: 第三章 3.1.3, page_range: 25-28}
+  bridgestone:
+    zh_name: 普利司通
+    tier: 2
+    strengths: [均衡, 省心, 抗造, 胎侧韧性]
+    weaknesses: [几年后橡胶硬化, 胎噪变大, 湿地抓地下降]
+    suitable_for: [城市通勤, 年里程较高, 少操心]
+    avoid_if: [年里程很低但想多年保持性能, 极致静音]
+    source: {version: v2, chapter: 第三章 3.2.1, page_range: 28-31}
+  goodyear:
+    zh_name: 固特异
+    tier: 2
+    strengths: [胎侧厚实, 刚性强, 耐久, 不太挑路况]
+    weaknesses: [生命周期后半段胎噪增加, 滤震下降]
+    suitable_for: [烂路乡道, 怕鼓包, 想要一线品牌耐久]
+    avoid_if: [极高静谧性要求]
+    source: {version: v2, chapter: 第三章 3.2.2, page_range: 31-34}
+  dunlop:
+    zh_name: 邓禄普
+    tier: 2
+    strengths: [成本与性能均衡, 便宜够用]
+    weaknesses: [静音抓地耐久都不拔尖, 高速高温极限衰减]
+    suitable_for: [买菜代步, 中低预算]
+    avoid_if: [高速多, 山路多, 强静音或操控]
+    source: {version: v2, chapter: 第三章 3.2.3, page_range: 34-37}
+  hankook:
+    zh_name: 韩泰
+    tier: 2
+    strengths: [新胎初段性能好, 价格相对低, 新能源 iON 布局]
+    weaknesses: [约2万公里后性能衰减可能较陡]
+    suitable_for: [高频用车, 两三年换胎, EV静音性价比]
+    avoid_if: [低年里程但想用五年保持性能]
+    source: {version: v2, chapter: 第三章 3.2.4, page_range: 37-40}
+  chaoyang:
+    zh_name: 朝阳
+    tier: 3
+    strengths: [高性价比, 静音海绵, 高硅配方改善湿地]
+    weaknesses: [极限操控和线性不如一线, 静音海绵增加重量/维护复杂度]
+    suitable_for: [城市通勤, 预算有限, 想改善静音]
+    avoid_if: [跑山, 赛道, 极限驾驶]
+    source: {version: v2, chapter: 第三章 3.3.1, page_range: 40-42}
+  sailun:
+    zh_name: 赛轮
+    tier: 3
+    strengths: [液体黄金配方, 低滚阻/湿地/耐磨平衡]
+    weaknesses: [侧向支撑不如硬核运动胎, 胎侧不是强抗穿刺路线]
+    suitable_for: [日常巡航, 兼顾能耗和安全]
+    avoid_if: [激烈跑山, 恶劣坑洼]
+    source: {version: v2, chapter: 第三章 3.3.2, page_range: 42-44}
+  giti:
+    zh_name: 佳通
+    tier: 3
+    strengths: [便宜, 耐磨, 抗造]
+    weaknesses: [胎噪大, 滤震差, 湿地抓地弱]
+    suitable_for: [营运车, 高里程低成本]
+    avoid_if: [家用舒适, 雨天安全冗余, 静音]
+    source: {version: v2, chapter: 第三章 3.3.3, page_range: 44-46}
