@@ -1,0 +1,16 @@
+name: tire-buying-guide
+title: 轮胎选购指南
+current_version: v2
+skill_path: skills/tire-buying-guide
+
+versions:
+  v2:
+    title: 轮胎选购指南-V2
+    source_file: sources/v2/source.pdf
+    text_file: sources/v2/source.txt
+    source_sha256: d7f7ff7b5b15cc1250a815cfa9663ba36d356efc0fc617fc7a71e0c5582b1250
+    imported_at: 2026-05-31
+    pages: 55
+    language: zh-CN
+    status: active
+    notes: 从飞书 Wiki PDF 导入，作为当前 canonical 知识库基线。
