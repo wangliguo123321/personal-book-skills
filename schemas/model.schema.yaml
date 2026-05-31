@@ -1,0 +1,13 @@
+# Tire model schema
+models:
+  <model_id>:
+    brand: brand_id
+    name: string
+    category: [comfort|sport|ev|winter|all-season|durable|budget]
+    sizes: [string]
+    strengths: [string]
+    weaknesses: [string]
+    suitable_for: [string]
+    source:
+      version: string
+      chapter: string
