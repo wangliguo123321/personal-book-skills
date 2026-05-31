@@ -1,0 +1,31 @@
+traps:
+  - id: foam_tire
+    name: 静音棉轮胎
+    benefit: 压制电车胎噪和空腔共鸣
+    risk: 价格高，补胎工序和费用增加，海绵粘不好可能高速抖动。
+    source: {version: v2, chapter: 第四章 4.2.1, page_range: 49}
+  - id: self_sealing_runflat
+    name: 自修复/防爆胎
+    benefit: 小扎钉或亏气时有应急能力
+    risk: 防爆胎硬且颠，自修复胶增加簧下质量，高温可能流淌破坏动平衡。
+    source: {version: v2, chapter: 第四章 4.2.2, page_range: 49}
+  - id: low_rolling_resistance
+    name: 极致低滚阻/节能轮胎
+    benefit: 降低油耗/电耗
+    risk: 可能牺牲湿地制动和抓地，不要只看能耗标签。
+    source: {version: v2, chapter: 第四章 4.2.3, page_range: 50}
+  - id: high_treadwear
+    name: 超高耐磨指数
+    benefit: 里程寿命长
+    risk: 橡胶硬，胎噪大，缓冲差，几年后雨天抓地下降。家用均衡通常看 300-400。
+    source: {version: v2, chapter: 第四章 4.2.4, page_range: 50}
+  - id: subbrand_ecommerce
+    name: 大厂子品牌和电商专供款
+    benefit: 价格低
+    risk: 不等于最新核心技术，可能用旧配方/旧产线或结构减配。
+    source: {version: v2, chapter: 第四章 4.2.5, page_range: 50}
+  - id: oe_mark
+    name: 原厂 OE 认证标
+    benefit: 与特定车型悬挂/调校匹配
+    risk: 日常通勤多数人难感知 20%-30% 溢价差异。
+    source: {version: v2, chapter: 第四章 4.2.6, page_range: 50}
