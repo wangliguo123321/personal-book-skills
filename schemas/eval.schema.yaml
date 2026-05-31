@@ -1,0 +1,7 @@
+# Skill eval schema
+evals:
+  - id: stable string
+    prompt: user-like prompt
+    must_include: [string]
+    must_not_include: [string]
+    references: [reference file]
