@@ -1,0 +1,14 @@
+# Source manifest schema (human-readable contract)
+required:
+  - name
+  - current_version
+  - versions
+version_fields:
+  title: string
+  source_file: path
+  text_file: path
+  source_sha256: sha256
+  imported_at: date
+  pages: integer
+  language: string
+  status: active|deprecated|pending
