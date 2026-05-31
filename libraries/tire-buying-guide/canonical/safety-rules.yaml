@@ -1,0 +1,25 @@
+rules:
+  - id: sidewall_bulge_replace
+    severity: critical
+    trigger: 胎侧鼓包、侧面鼓包、胎侧帘线损伤
+    recommendation: 不建议修补或热硫化后继续正常使用，应尽快更换。
+    rationale: 胎侧没有钢丝带束层，鼓包通常意味着帘布层/帘线断裂或分层，修补无法恢复结构强度。
+    source: {version: v2, chapter: 第四章 4.1.5, page_range: 48}
+  - id: new_tires_rear
+    severity: high
+    trigger: 新胎安装位置
+    recommendation: 新胎优先装后轮；同轴尽量同品牌同型号同规格。
+    rationale: 后轮失控甩尾比前轮推头更难救。
+    source: {version: v2, chapter: 第四章 4.1.1, page_range: 46}
+  - id: dynamic_balance_after_replacement
+    severity: high
+    trigger: 换胎后
+    recommendation: 换胎后必须做动平衡；旧胎偏磨时加做四轮定位。
+    rationale: 轮毂和新轮胎质量不完全均匀，不平衡会导致高速抖动。
+    source: {version: v2, chapter: 第四章 4.1.6, page_range: 48}
+  - id: do_not_lower_pressure_in_summer
+    severity: high
+    trigger: 夏天降胎压、防爆胎
+    recommendation: 按车门框标准冷态胎压，不要私自降压。
+    rationale: 低胎压会增加胎侧驻波形变和发热，反而增加爆胎风险。
+    source: {version: v2, chapter: 第四章 4.1.8, page_range: 48}
